@@ -5,8 +5,7 @@ import { dark } from "@clerk/themes";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ClerkProvider>
+    
       <Component {...pageProps} />
-    </ClerkProvider>
   );
 }
